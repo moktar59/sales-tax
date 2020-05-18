@@ -1,0 +1,19 @@
+{
+    "name": "matrivumiit/sales-tax",
+    "description": "Get the latest Sales tax rate",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moktar Ali",
+            "email": "im.moktar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Matrivumiit\\SalesTax\\": "src"
+        }
+    }
+}
