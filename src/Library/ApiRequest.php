@@ -4,9 +4,9 @@
  *
  * @author Moktar <im.moktar@gmail.com>
  */
-namespace Matrivumiit\SalesTax\Library;
+namespace Bglobal\SalesTax\Library;
 
-use Matrivumiit\SalesTax\Library\Apis;
+use Bglobal\SalesTax\Library\Apis;
 
 
 class ApiRequest

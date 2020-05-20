@@ -4,7 +4,7 @@
  *
  * @author Moktar <im.moktar@gmail.com>
  */
-namespace Matrivumiit\SalesTax\Library;
+namespace Bglobal\SalesTax\Library;
 
 
 class Apis
