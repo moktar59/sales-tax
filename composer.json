@@ -15,5 +15,15 @@
         "psr-4": {
             "Bglobal\\SalesTax\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bglobal\\SalesTax\\SalesTaxServiceProvider"
+            ],
+            "aliases": {
+                "SalesTax": "Bglobal\\SalesTax\\Tax"
+            }
+        }
     }
 }

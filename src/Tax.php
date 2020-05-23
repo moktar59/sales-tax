@@ -31,9 +31,17 @@ class Tax
      *
      * @return void
      */
-    public static function getTaxByCountryCode()
+    public static function getTaxByCountryCode($countryCode, $productCode, $zipCode, $filter = 'CombinedRate')
     {
+        $obj = new ApiRequest();
+        $response = $obj->setApiUrl(__METHOD__)
+            ->setCountryCode($countryCode)
+            ->setProductCode($productCode)
+            ->setZipCode($zipCode)
+            ->setFilter($filter)
+            ->sendRequest();
 
+        return $response;
     }
 }
 

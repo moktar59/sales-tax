@@ -7,9 +7,9 @@
 namespace Bglobal\SalesTax\Library;
 
 
-class Apis
+class ApiEndPoints
 {
-    public $baseUrl = 'https://api.taxrates.io/api';
+    public static $baseUrl = 'https://api.taxrates.io/api';
 
     /**
      * Get all the tax rates
@@ -17,9 +17,9 @@ class Apis
      * @method Get
      * @return string
      */
-    public function allTaxRates(): string
+    public static function allTaxRates(): string
     {
-        return '/v3/tax/rates';
+        return self::$baseUrl . '/v3/tax/rates';
     }
 
     /**
@@ -27,9 +27,9 @@ class Apis
      *
      * @return void
      */
-    public function taxRateByIpAddress()
+    public static function taxRateByIpAddress()
     {
-        return '/v1/tax/ip';
+        return self::$baseUrl . '/v1/tax/ip';
     }
 
     /**
@@ -37,8 +37,8 @@ class Apis
      *
      * @return void
      */
-    public function taxRateByCountryCode()
+    public static function taxRateByCountryCode()
     {
-        return '/v1/tax/countrycode';
+        return self::$baseUrl . '/v1/tax/countrycode';
     }
 }
