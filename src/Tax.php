@@ -10,19 +10,29 @@ use Bglobal\SalesTax\Library\ApiRequest;
 
 class Tax
 {
-    private static $apiResponse = [
-        'success' => false,
-        'message' => ''
-    ];
-
-    public static function getAllTaxRates()
+    public static function getAllTaxRates($productCode, $filter = 'CombinedRate', $zipCode = '')
     {
+        $obj = new ApiRequest();
+        $response = $obj->setApiUrl(__METHOD__)
+            ->setProductCode($productCode)
+            ->setZipCode($zipCode)
+            ->setFilter($filter)
+            ->sendRequest();
 
+        return $response;
     }
 
-    public static function getTaxByIpAddress()
+    public static function getTaxByIpAddress($ip, $productCode, $filter = '', $zipCode = '')
     {
+        $obj = new ApiRequest();
+        $response = $obj->setApiUrl(__METHOD__)
+            ->setIpAddress($ip)
+            ->setProductCode($productCode)
+            ->setZipCode($zipCode)
+            ->setFilter($filter)
+            ->sendRequest();
 
+        return $response;
     }
 
     /**
