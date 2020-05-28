@@ -4,3 +4,8 @@
 [![GitHub forks](https://img.shields.io/github/forks/moktar59/sales-tax?style=flat-square)](https://github.com/moktar59/sales-tax/network)
 [![GitHub stars](https://img.shields.io/github/stars/moktar59/sales-tax?style=flat-square)](https://github.com/moktar59/sales-tax/stargazers)
 
+-
+
+# Installation
+
+# Usage
