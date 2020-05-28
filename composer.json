@@ -3,6 +3,14 @@
     "description": "Get the latest Sales tax rate",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "tax",
+        "sales tax",
+        "tax api",
+        "tax rate",
+        "tax rate api"
+      ],
+      "homepage": "https://taxrates.io/",
     "authors": [
         {
             "name": "Moktar Ali",
