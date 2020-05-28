@@ -1,6 +1,6 @@
 # Get the latest Sales Tax rate
 
-[![GitHub license](https://img.shields.io/github/license/moktar59/sales-tax?style=flat-square)](https://github.com/moktar59/sales-tax)
+[![GitHub license](https://img.shields.io/github/license/moktar59/sales-tax?style=flat-square)](https://github.com/moktar59/sales-tax/blob/master/LICENSE.md)
 
 [![GitHub issues](https://img.shields.io/github/issues/moktar59/sales-tax?style=flat-square)](https://github.com/moktar59/sales-tax/issues)
 
